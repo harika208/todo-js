@@ -56,11 +56,7 @@ const addTask = () => {
     hori.setAttribute("width","100%");
     element.appendChild(hori);
 
-
-
-   
-    
-     let delete1 = document.createElement("img");
+    let delete1 = document.createElement("img");
     delete1.setAttribute("src","./trash-can-solid.svg");
     element.appendChild(delete1).addEventListener("click", () => {
         existingElement.removeChild(element);
@@ -72,13 +68,13 @@ const addTask = () => {
 
     let pop = document.querySelector('#popup-main');
     pop.style.display = "none";
-
-const content = document.createElement("div");
-content.setAttribute("id","innerbox");
-content.style.display = "inline-block";
-element.appendChild(content);
-const btn = document.getElementById('btn');
-const name1 = document.getElementById("name1");
+    
+    const content = document.createElement("div");
+    content.setAttribute("id","innerbox");
+    content.style.display = "inline-block";
+    element.appendChild(content);
+    const btn = document.getElementById('btn');
+    const name1 = document.getElementById("name1");
 
 btn.addEventListener('click', function(){
     let text = document.createElement('p');
