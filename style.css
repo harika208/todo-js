@@ -64,9 +64,7 @@ body{
     text-align: center;
     font-size: large;
     font-weight: 500;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     }
 
@@ -233,6 +231,6 @@ img {
     color:white;
     background-color: rgb(32, 105, 164);
     height:24px;
-    width:50px;
+    width:120px;
     border-radius: 10px;
 }
